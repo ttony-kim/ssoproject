@@ -1,0 +1,9 @@
+{
+	"realm": "user1",
+	"auth-server-url": "http://localhost:8080",
+	"ssl-required": "external",
+	"resource": "login-app",
+	"credentials": {
+		"secret": "1HhN4jzEqGD9FAiuhLo4jiJXysR8BQCm"
+	}
+}
