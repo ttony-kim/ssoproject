@@ -30,12 +30,12 @@ public class SsoProjectController {
 	@GetMapping("/auth-admin")
 	public ResponseEntity<String> authAdmin() {
 		
-		return ResponseEntity.ok("Admin Page! <" + getUserName() + ">");
+		return ResponseEntity.ok("Admin Page! [" + getUserName() + "]");
 	}
 	
 	@GetMapping("/auth-user")
 	public ResponseEntity<String> authUser() {
-		return ResponseEntity.ok("User Page! <" + getUserName() + ">");
+		return ResponseEntity.ok("User Page! [" + getUserName() + "]");
 	}
 	
 	private void getIdToken(Model model) {
